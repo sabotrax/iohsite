@@ -12,6 +12,7 @@ end
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
+page "/darkhope/*", :layout => "layout_dark"
 
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
@@ -46,3 +47,4 @@ page '/*.txt', layout: false
 # end
 
 activate :livereload
+ignore: "*_orig"
