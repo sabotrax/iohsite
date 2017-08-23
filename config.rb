@@ -47,4 +47,4 @@ page "/darkhope/*", :layout => "layout_dark"
 # end
 
 activate :livereload
-ignore: "*_orig"
+ignore "*_orig"
