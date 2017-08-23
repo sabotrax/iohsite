@@ -1,0 +1,33 @@
+---
+title:	Sitemap
+---
+<header class="banner">
+  <ul class='menu_top clearfix'>
+    <li><a href="index.html">Home</a></li>
+    <li><a id="active" href="corp-info.html">Corp-Info</a></li>
+    <li><a href="kalender.html">Kalender</a></li>
+    <li><a href="memberbereich.html">Memberbereich</a></li>
+    <li><a href="join_us.html">Join us!</a></li>
+    <li><a href="citizenfinder.html">Citizen-Finder</a><li>
+    <li><a href="partner.html">Partner</a><li>
+  </ul>
+</header>
+
+<main>
+  <article>
+    <h1>Sitemap</h1>
+  <section>
+    <h2>Eine Seiten&uumlbersicht</h2>
+    <br>
+    <% pages = sitemap.resources.find_all { |p| p.source_file.match(/\.html/) } %>
+      <ul style="list-style: none;">
+	<% pages.each do |p| %>
+	  <% if p.destination_path =~ /(.+)\/.+\.html/ %>
+	    <li><%= p.data.title %> (<%= data.sitemap_description.sitemap[$1] %>) <a href="<%= p.destination_path %>"><font color="#009ECE"><%= p.destination_path %></font></a></li>
+	  <% else %>
+	    <li><%= p.data.title %> <a href="<%= p.destination_path %>"><font color="#009ECE"><%= p.destination_path %></font></a></li>
+	  <% end %>
+	<% end %>
+      </ul>
+  </section>
+</main>
