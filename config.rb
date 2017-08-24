@@ -39,6 +39,9 @@ page "/cpinfoswl/*", :layout => "layout_cpinfoswl"
 #   end
 # end
 
+require "lib/ioh_helpers"
+helpers IoHHelpers
+
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
