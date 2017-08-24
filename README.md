@@ -38,11 +38,13 @@ So gibt es keine Zusammenstöße mit systemweit installieren Versionen.
 Installieren:
 
 `git clone git://github.com/sstephenson/rbenv.git ~/.rbenv`
+
 `git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build`
 
 Zum Pfad hinzufügen:
 
 `echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile`
+
 `echo 'eval "$(rbenv init -)"' >> ~/.bash_profile`
 
 Shell mit erweitertem Pfad starten:
@@ -51,7 +53,7 @@ Shell mit erweitertem Pfad starten:
 
 Nun können wir rbenv benutzen, um Ruby zu installieren:
 
-Verfügbare Ruby-Versionen anzeigen:
+Verfügbare Versionen anzeigen:
 
 `rbenv install --list`
 
