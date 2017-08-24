@@ -172,15 +172,12 @@ footer nav, .menu_top, main
   color: #FFFFFF;
 }
 
-
-
 main
 {
   display: block;
   margin-top: 40px;
   padding: 0px 9px;
 }
-
 
 .smallteaser
 {
@@ -323,12 +320,12 @@ h1, h2
   color: #018DB8;
 }
 
-
 .banner 
 {
   background: #FFFFFF url('../images/WebsiteBannerA.png') no-repeat center bottom;
   border-top: 5px solid #009ECE;
 }
+
 .logo_wrapper
 {
   margin: 0px auto;
@@ -355,7 +352,10 @@ h1, h2
 }
 
 .button:hover {
-    background-color: #009ECE;
-    color: white;
+  background-color: #009ECE;
+  color: white;
 } 
 
+.ihope_blau {
+  color: #009ECE;
+}

@@ -1,8 +1,12 @@
 module IoHHelpers
 
-  def rsi_citizen_link_to(handle="croberts68", *moniker)
-    moniker = handle unless moniker.shift
-    link_to(moniker, "https://robertsspaceindustries.com/citizens/#{handle}")
+  def link_to_citizen(handle="croberts68", *options, **named_options)
+    if options.empty?
+      text = handle
+    else
+      text = options.shift
+    end
+    link_to(text, "https://robertsspaceindustries.com/citizens/#{handle}", named_options)
   end
 
 end
