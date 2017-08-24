@@ -13,6 +13,7 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 page "/darkhope/*", :layout => "layout_dark"
+page "/cpinfoswl/industriesgroup/*", :layout => "layout_industriesgroup"
 page "/cpinfoswl/*", :layout => "layout_cpinfoswl"
 
 # With alternative layout

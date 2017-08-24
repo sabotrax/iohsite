@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description"
+	  content="Die Seite der Isle of Hope Corporation im MMO Star Citizen">
+    <meta name="author"
+	  content="Isle of Hope Corporation">
+    <meta name="date"
+	  content="<%= Time.now.iso8601 %>">
+    <title><%= current_page.data.title %></title>
+    <link href="../../stylesheets/style.css" rel="stylesheet" type="text/css" />
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Tauri' rel='stylesheet' type='text/css'>
+    <link href="IHOPE.tts" rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <%= yield %>
+    <%= partial "footer_industriesgroup" %>
+  </body>
+</html>
