@@ -1,7 +1,15 @@
-ul, h1
+h1
 { 
   margin: 0px;
   padding: 0px;
+}
+
+ul
+{
+  margin: 0px;
+  padding: 0px;
+  list-style-position: inside;
+  line-height: 1.6em;
 }
 
 .clearfix
@@ -23,7 +31,6 @@ ul, h1
   content: "";
   zoom: 1;
 }
-
 
 img, a img
 { 
@@ -75,6 +82,14 @@ p
   line-height: 1.6em;
   margin-top: 20px;
   padding: 20px 0px;
+}
+
+p.no_padding
+{
+  text-align: left;
+  line-height: 1.6em;
+  margin-top: 20px;
+  padding: 0;
 }
 
 h1, h2
@@ -172,15 +187,12 @@ footer nav, .menu_top, main
   color: #FFFFFF;
 }
 
-
-
 main
 {
   display: block;
   margin-top: 40px;
   padding: 0px 9px;
 }
-
 
 .smallteaser
 {
@@ -323,12 +335,12 @@ h1, h2
   color: #018DB8;
 }
 
-
 .banner 
 {
   background: #000000 url('../images/WebsiteBannerA.png') no-repeat center bottom;
   border-top: 5px solid #009ECE;
 }
+
 .logo_wrapper
 {
   margin: 0px auto;
@@ -355,7 +367,7 @@ h1, h2
 }
 
 .button:hover {
-    background-color: #009ECE;
-    color: white;
+  background-color: #009ECE;
+  color: white;
 } 
 

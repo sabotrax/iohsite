@@ -1,7 +1,15 @@
-ul, h1
+h1
 { 
   margin: 0px;
   padding: 0px;
+}
+
+ul
+{
+  margin: 0px;
+  padding: 0px;
+  list-style-position: inside;
+  line-height: 1.6em;
 }
 
 .clearfix
@@ -23,7 +31,6 @@ ul, h1
   content: "";
   zoom: 1;
 }
-
 
 img, a img
 { 
@@ -75,6 +82,14 @@ p
   line-height: 1.6em;
   margin-top: 20px;
   padding: 20px 0px;
+}
+
+p.no_padding
+{
+  text-align: left;
+  line-height: 1.6em;
+  margin-top: 20px;
+  padding: 0;
 }
 
 h1, h2
