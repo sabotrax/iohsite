@@ -29,7 +29,7 @@ Stand bringen kann. Weitere Informationen finden sich im [Ubuntu-Wiki](https://w
 
 Notwendige Linux-Pakete als Admin installieren:
 
-`sudo apt-get install -y build-essential git libreadline-dev libssl-dev zlib1g-dev`
+`sudo apt-get install -y build-essential git libreadline-dev libssl-dev zlib1g-dev nodejs`
 
 rbenv ist ein cleveres Werkzeug, um Ruby-Installation zu managen.
 Ich benutze es gerne, um Ruby im Verzeichnis des Benutzers einzurichten.
