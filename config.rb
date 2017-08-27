@@ -14,6 +14,8 @@ page '/*.json', layout: false
 page '/*.txt', layout: false
 page "/darkhope/*", :layout => "layout_dark"
 page "/cpinfoswl/industriesgroup/*", :layout => "layout_industriesgroup"
+# Gleiches Layout fuer Industries und Guardians (../../ zum CSS)
+page "/cpinfoswl/guardiansgroup/*", :layout => "layout_industriesgroup"
 page "/cpinfoswl/*", :layout => "layout_cpinfoswl"
 
 # With alternative layout
