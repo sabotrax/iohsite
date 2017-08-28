@@ -79,9 +79,17 @@ Standardwerkzeug zur Bibliotheksverwaltung in Ruby installieren:
 
 ### Loslegen mit iohsite (in einer Bash-Shell)
 
+Einen Pfad außerhalb des Linux-Systems erstellen, um mit Windows-Programmen zugreifen zu können:
+
+`mkdir /mnt/c/dev`
+
+`cd /mnt/c/dev`
+
 Dieses Repository clonen:
 
 `git clone https://github.com/sabotrax/iohsite.git`
+
+Aus der Sicht von Windows steht der Code nun unter **C:\dev\iohsite** zur Verfügung.
 
 Benötigte Ruby-Bibliotheken (hier Gem genannt) installieren:
 
