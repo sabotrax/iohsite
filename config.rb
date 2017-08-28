@@ -13,11 +13,15 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
+# Dark Theme
 page "/darkhope/cpinfoswl/gallerie.html", :layout => "layout_dark_gallerie"
 page "/darkhope/cpinfoswl/industriesgroup/*", :layout => "layout_dark_industriesgroup"
+# Gleiches Layout fuer Industries und Guardians (../../ zum CSS)
+page "/darkhope/cpinfoswl/guardiansgroup/*", :layout => "layout_dark_industriesgroup"
 page "/darkhope/cpinfoswl/*", :layout => "layout_dark_cpinfoswl"
 page "/darkhope/*", :layout => "layout_dark"
 
+# Light Theme
 page "/cpinfoswl/gallerie.html", :layout => "layout_gallerie"
 page "/cpinfoswl/industriesgroup/*", :layout => "layout_industriesgroup"
 # Gleiches Layout fuer Industries und Guardians (../../ zum CSS)
