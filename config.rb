@@ -14,6 +14,7 @@ page '/*.json', layout: false
 page '/*.txt', layout: false
 
 page "/darkhope/cpinfoswl/gallerie.html", :layout => "layout_dark_gallerie"
+page "/darkhope/cpinfoswl/industriesgroup/*", :layout => "layout_dark_industriesgroup"
 page "/darkhope/cpinfoswl/*", :layout => "layout_dark_cpinfoswl"
 page "/darkhope/*", :layout => "layout_dark"
 
